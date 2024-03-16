@@ -2,6 +2,8 @@
 
 Este é um projeto de visão computacional para reconhecer a mão e aumentar o tamanho de uma barra com o movimento do dedo Indicador e Polegar.
 
+![Animation](gif_teste.gif)
+
 ## Como Executar o Projeto
 
 Siga os passos abaixo para configurar e executar o projeto no seu ambiente local.
@@ -43,7 +45,7 @@ source env/bin/activate
 ```
 
 ### Instalação dos pacotes
-Com o ambiente virtual ativado, instale os pacotes.
+Com o ambiente virtual ativado, instale os pacotes. (esta etapa pode demorar alguns minutos)
 ```bash
 pip install -r requeriments.txt
 ```
