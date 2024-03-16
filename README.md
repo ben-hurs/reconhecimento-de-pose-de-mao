@@ -53,6 +53,10 @@ pip install -r requeriments.txt
 python main.py
 ```
 
+### Copie a porta no seu navegador
+```bash
+http://192.168.1.71:5000
+```
 
 
 
