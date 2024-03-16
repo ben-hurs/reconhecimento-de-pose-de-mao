@@ -1,6 +1,5 @@
 from flask import Flask, render_template, Response
-import cv2
-from reconhecimento_mao import videoCamera
+from reconhecimento_mao import VideoCamera
 
 app = Flask(__name__)
 
@@ -17,7 +16,7 @@ def gen(reconhecimento_mao):
         
 @app.route('/aplicacao')
 def aplicacao():
-    return Response(gen(videoCamera()),
+    return Response(gen(VideoCamera()),
            mimetype='multipart/x-mixed-replace; boundary=frame')
 
 
