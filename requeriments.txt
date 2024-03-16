@@ -1,4 +1,4 @@
-OpenCV== 4.9.0
 NumPy== 1.23.5
 Mediapipe== 0.10.10
-Flask==2.2.3
+Flask==3.0.2
+cvzone==1.6.1

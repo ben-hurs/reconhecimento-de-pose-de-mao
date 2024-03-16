@@ -11,19 +11,19 @@
             margin: 0;
             padding: 0;
             display: flex;
-            justify-content: center;
             align-items: center;
-            flex-direction: column;
+            justify-content: center;
             height: 100vh;
+            flex-direction: column; /* Ajuste para que o conteúdo seja empilhado verticalmente */
         }
 
         h1 {
-            color: #333;
-            margin-bottom: 20px;
+            color: #e36a07; /* cor laranja */
+            margin-bottom: 20px; /* Espaço entre o h1 e a imagem */
         }
 
         #bg {
-            width: 50%;
+            width: 30%; /* ajuste a largura conforme necessário */
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         }
@@ -34,3 +34,4 @@
     <img id="bg" src="{{ url_for('aplicacao') }}">
 </body>
 </html>
+
